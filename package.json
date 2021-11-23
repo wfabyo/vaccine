@@ -1,0 +1,29 @@
+{
+  "name": "healthy-meal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "start": "nodemon ./server.js localhost 3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wfabyo/healthy-meal.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wfabyo/healthy-meal/issues"
+  },
+  "homepage": "https://github.com/wfabyo/healthy-meal#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^2.3.3-rc.0",
+    "sequelize": "^6.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14",
+    "sequelize-cli": "^6.3.0"
+  }
+}
